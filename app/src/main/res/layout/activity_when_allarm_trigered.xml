@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_when_allarm_trigered"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhenAllarmTrigered">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <Button
+            android:id="@+id/bt_id_skip"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:layout_marginLeft="10dp"
+            android:textAllCaps="false"
+            android:layout_centerVertical="true"/>
+
+
+        <Button
+            android:id="@+id/bt_taked"
+            android:layout_alignParentRight="true"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Taked"
+            android:layout_marginRight="10dp"
+            android:textAllCaps="false"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

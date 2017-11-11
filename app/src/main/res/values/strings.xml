@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">medicimAlarm</string>
+    <string name="title_activity_when_alarm_triger">WhenAlarmTriger</string>
+</resources>
